@@ -35,9 +35,7 @@ features/ → Redux Toolkit slices
 
 pages/ → Different page components (Home, Product Details, etc.)
 
-services/ → API service functions using Axios
-
-App.jsx → Main app structure
+MainLayout.jsx → Main app structure
 
 main.jsx → Entry point (with RouterProvider)
 
@@ -52,8 +50,6 @@ npm run lint	Run ESLint to check code quality
 Product listing fetched from an API
 
 Product detail pages
-
-Add to cart functionality (with LocalStorage persistence)
 
 Buy Order functionality
 
