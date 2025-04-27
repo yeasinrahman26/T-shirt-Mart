@@ -14,10 +14,14 @@ const NavBar = () => {
     </>
   );
     return (
-      <div className="navbar bg-base-100 shadow-sm">
+      <div className="navbar bg-gray-200 shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn btn-ghost bg-gray-200 lg:hidden"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -36,7 +40,7 @@ const NavBar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm  dropdown-content bg-base-300 rounded-box z-1 mt-5 w-52 p-2 shadow"
             >
               {links}
             </ul>
@@ -45,11 +49,11 @@ const NavBar = () => {
             T-Mart
           </Link>
         </div>
-        <div className="navbar-center hidden lg:flex">
+        <div className="navbar-center   hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{links}</ul>
         </div>
-        <div className="navbar-end">
-          <Link to="/cart" className="btn">
+        <div className="navbar-end ">
+          <Link to="/cart" className="btn ">
             <IoMdCart />
           </Link>
         </div>
