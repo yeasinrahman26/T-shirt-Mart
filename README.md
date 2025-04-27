@@ -7,7 +7,7 @@ A responsive product showcase website built with React.js, Redux Toolkit, Tailwi
 This project was created as part of a skill evaluation task for CloudCore.
 
 ### 🔗 Live Demo  :
-[T-shirt-Mart]t-shirt-mart.vercel.app
+[T-shirt-Mart](https://t-shirt-mart.vercel.app/)
 
 ## 🚀 Tech Stack
 React.js (v19)
