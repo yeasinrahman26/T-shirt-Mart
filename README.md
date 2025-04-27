@@ -1,12 +1,82 @@
-# React + Vite
+## T-Shirt Mart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![T-Mart-Banner](https://i.ibb.co.com/PzCY84BS/Screenshot-2025-04-27-180019.png)
 
-Currently, two official plugins are available:
+## Introduction  
+A responsive product showcase website built with React.js, Redux Toolkit, Tailwind CSS, and Vite.
+This project was created as part of a skill evaluation task for CloudCore.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔗 Live Demo  :
+[T-shirt-Mart] t-shirt-mart.vercel.app
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
+React.js (v19)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Redux Toolkit (for state management)
+
+React Router DOM (for client-side routing)
+
+Axios (for API integration)
+
+Tailwind CSS + DaisyUI (for styling)
+
+Vite (for fast builds and development)
+
+Swiper.js (for carousels/sliders)
+
+SweetAlert2 (for elegant alerts)
+
+📂 Project Structure
+src/
+
+components/ → Reusable UI components
+
+features/ → Redux Toolkit slices
+
+pages/ → Different page components (Home, Product Details, etc.)
+
+services/ → API service functions using Axios
+
+App.jsx → Main app structure
+
+main.jsx → Entry point (with RouterProvider)
+
+## 📜 Scripts
+
+Command	Description
+npm run dev	Start the development server
+npm run build	Build the project for production
+npm run preview	Preview the production build locally
+npm run lint	Run ESLint to check code quality
+## 🔥 Features
+Product listing fetched from an API
+
+Product detail pages
+
+Add to cart functionality (with LocalStorage persistence)
+
+Buy Order functionality
+
+Responsive design for all screen sizes
+
+Smooth carousels and transitions
+
+Sweet and interactive alerts
+
+🛠️ Installation
+bash
+Copy
+Edit
+# Clone the repo
+git clone https://github.com/your-username/your-repo-name.git
+
+# Navigate into the project
+cd your-repo-name
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+📄 License
+This project is for evaluation purposes only.
